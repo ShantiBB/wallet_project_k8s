@@ -152,5 +152,5 @@ minikube ip
 # Убедиться что нет ошибок 
 sudo nginx -t
 
-sudo systemctl enable nginx
+sudo systemctl reload nginx
 ```
