@@ -141,15 +141,6 @@ http {
             proxy_set_header Host $host;
         }
     }
-    server {
-        listen 5432;
-        server_name _;
-
-        location / {
-            proxy_pass <minikube_ip>:31000;
-            proxy_set_header Host $host;
-        }
-    }
 }
 ```
 Узнать ip можно командой:
