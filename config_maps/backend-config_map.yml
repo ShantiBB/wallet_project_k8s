@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  POSTGRES__USER: "shantibb"
+  POSTGRES__PASSWORD: "78618231"
+  POSTGRES__HOST: "postgres-service"
+  POSTGRES__PORT: "5432"
+  POSTGRES__DB_NAME: "wallet_db"
